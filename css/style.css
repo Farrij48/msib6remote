@@ -1,0 +1,123 @@
+.bkhome{
+    background-color: white;
+}
+.judul{
+    text-align: center;
+}
+.scratasbawah {
+    text-align: right;
+}
+.paragraph1 {
+    text-align: justify;
+}
+.paragraph2{
+    text-align: left;
+}
+img{
+    width: 6%;
+    margin-left: 15px;
+    margin-right: 15px;
+    float: left;
+}
+fieldset{
+    font-size: 5;
+    font-family: 'Times New Roman';
+}
+.biodata{
+    font-size: 30px;
+    font-family: 'Calibri';
+    color: green;
+}
+.marquee {
+    white-space: nowrap; 
+    overflow: hidden; 
+    animation: marquee 30s linear infinite; 
+}
+
+/* Animasi untuk efek marquee */
+@keyframes marquee {
+    from {
+        transform: translateX(60%); 
+    }
+    to {
+        transform: translateX(-60%); 
+    }
+}
+.marquee img{
+    width: 400px; 
+    height: 400px; 
+}
+
+.bkleft{
+    background-color: #eaebd3;
+}
+.bkright{
+    background-color: #eaebd3;
+}
+.bkfoot{
+    background-color: #eaebd3;
+}
+.bkstudy{
+    background-color: white;
+}
+.bkgaleri{
+    background-color: white;
+}
+.fontfoot{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Calibri';
+}
+.bknav{
+    background-color: #eaebd3;
+}
+.nav{
+    text-align: center;
+}
+.nav a{
+    text-decoration: none;
+}
+.nav li{ 
+    display: inline; 
+    margin-right: 50px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+.nav a:hover{
+    background-color: #1111118c;
+}
+.tablestudy {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+.tablestudy th, .tablestudy td {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 8px;
+    font-family: 'Times New Roman';
+}
+.tablestudy th {
+    background-color: #28ce2b;
+}
+.h1study{
+    text-align: center;
+    font-family: 'Times New Roman';
+}
+.listleft legend{
+    font-size: 18px;
+}
+.listleft a{
+    text-decoration: none;
+}
+.listleft li{
+    font-size: 18px;
+}
+.listleft a:hover{
+    background-color: #1111118c;
+}
+.headerpic{
+    width: 100%;
+}
